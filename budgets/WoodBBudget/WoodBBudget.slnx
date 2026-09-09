@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="WoodBBudget.vcxproj" />
+  <Project Path="WoodBBudget.vcxproj" Id="899cf69a-5f5d-47bd-827f-cc65990a7883" />
 </Solution>

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "WoodBBudget\\x64\\Debug\\WoodBBudgetV2.obj",
+            "outputs": [
+                "WoodBBudget\\x64\\Debug\\WoodBBudgetV2.cpp.obj.dt.module.json",
+                "WoodBBudget\\x64\\Debug\\WoodBBudgetV2.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

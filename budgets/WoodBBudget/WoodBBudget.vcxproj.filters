@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WoodBBudget.cpp">
+    <ClCompile Include="WoodBBudgetV2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
