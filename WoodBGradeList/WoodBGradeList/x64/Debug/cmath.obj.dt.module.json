@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "WoodBGradeList\\x64\\Debug\\cmath.obj",
+            "outputs": [
+                "WoodBGradeList\\x64\\Debug\\cmath.obj.dt.module.json",
+                "WoodBGradeList\\x64\\Debug\\cmath.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

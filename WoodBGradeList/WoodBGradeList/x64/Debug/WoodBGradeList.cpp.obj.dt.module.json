@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "WoodBGradeList\\x64\\Debug\\WoodBGradeList.obj",
+            "outputs": [
+                "WoodBGradeList\\x64\\Debug\\WoodBGradeList.cpp.obj.dt.module.json",
+                "WoodBGradeList\\x64\\Debug\\WoodBGradeList.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
