@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "WoodBErr.a3f902af\\x64\\Debug\\WoodBErrorChecking.obj",
+            "outputs": [
+                "WoodBErr.a3f902af\\x64\\Debug\\WoodBErrorChecking.cpp.obj.dt.module.json",
+                "WoodBErr.a3f902af\\x64\\Debug\\WoodBErrorChecking.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
