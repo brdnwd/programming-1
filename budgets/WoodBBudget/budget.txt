@@ -1,0 +1,12 @@
+Name:                      Braden Wood                             
+Wages:                     $  2016.00
+Taxes:                     $   201.60
+Net:                       $  1814.40
+Mortgage:                  $   181.44
+Savings:                   $   181.44
+Food:                      $   181.44
+Utilities:                 $   181.44
+Games:                     $   181.44
+Books:                     $   181.44
+-------------------------------------
+You have $725.76 left over this month

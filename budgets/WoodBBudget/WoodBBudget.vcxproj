@@ -139,7 +139,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="WoodBBudgetV2.cpp" />
+    <ClCompile Include="WoodBBudgetV3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="budget.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
