@@ -24,24 +24,20 @@ using namespace std;
 ****************************************************/
 // TASK 4 - TODO: Function prototype goes here
 
-const int MAX_HOURS = 40;
-const int SIZE = 4;
+const int MAX_HOURS = 40; // Task 1
+const int SIZE = 4; // Task 3
 
 // Returns a string from integer
 string getCategory(int age) {
-    string age_name;
-
     if (age < 13) {
-        age_name = "Child";
+        return "Child";
     }
-    else if (age >= 13 && age <= 19) {
-        age_name = "Teen";
+    else if (age <= 19) {
+        return "Teen";
     }
     else {
-        age_name = "Adult";
+        return "Adult";
     }
-
-    return age_name;
 }
 
 int main()
@@ -65,23 +61,19 @@ int main()
     double hours;
 
     cout << "Enter your full name (ex: Braden Wood): ";
-        
-    if (!cin) {
-        cout << "[ERROR] Invalid Data";
-        return 1;
-    }
-
     getline(cin, name);
 
-    cout << "Enter your hours worked (ex: 18.27): ";
+    cout << "Enter your hours worked (0-40): ";
     cin >> hours;
-
-    if (!cin) {
+       
+    // Too many hours or invalid data
+    if (!cin || hours > 40) {
         cout << "[ERROR] Invalid Data";
         return 1;
     }
 
-    cout << "TASK 1 OUTPUT: " << name << " worked " << hours << " out of " << MAX_HOURS << " hours" << endl << endl;
+    cout << "TASK 1 OUTPUT: " << name << " worked " 
+        << hours << " out of " << MAX_HOURS << " hours" << endl << endl;
 
     /************************************************
       TASK 2: If / Else (Conditionals)
@@ -104,15 +96,16 @@ int main()
     cout << "Enter a speed value (0-100+): ";
     cin >> speed_value;
 
+    // Invalid speed or invalid data
     if (!cin || speed_value < 0) {
         cout << "[ERROR] Invalid Data";
         return 1;
     }
 
-    if (speed_value <= 30) {
+    if (speed_value < 30) {
         speed = "Slow";
     }
-    else if (speed_value >= 30 && speed_value <= 60) {
+    else if (speed_value <= 60) {
         speed = "Normal";
     }
     else {
@@ -144,6 +137,7 @@ int main()
         cout << "Enter expense " << i + 1 << " (" << rand() << "): "; // produces a random value for examples
         cin >> expenses[i];
 
+        // Invalid data
         if (!cin) {
             cout << "[ERROR] Invalid Data";
             return 1;
@@ -177,6 +171,7 @@ int main()
     cout << "Please enter an age (1,20,80): ";
     cin >> age;
 
+    // You don't exist or its invalid data.
     if (!cin || age < 1) {
         cout << "[ERROR] Invalid Data";
         return 1;

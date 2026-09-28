@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5038E6FA-ECF1-4FB1-964A-92510B54FDB2}|WoodBEarlyPassProgram.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\programming-1\\WoodBEarlyPassProgram\\WoodBEarlyPassProgram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5038E6FA-ECF1-4FB1-964A-92510B54FDB2}|WoodBEarlyPassProgram.vcxproj|solutionrelative:WoodBEarlyPassProgram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5038E6FA-ECF1-4FB1-964A-92510B54FDB2}|WoodBEarlyPassProgram.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\programming-1\\WoodBEarlyPassProgram\\report.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5038E6FA-ECF1-4FB1-964A-92510B54FDB2}|WoodBEarlyPassProgram.vcxproj|solutionrelative:report.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "report.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\programming-1\\WoodBEarlyPassProgram\\report.txt",
+              "RelativeDocumentMoniker": "report.txt",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\programming-1\\WoodBEarlyPassProgram\\report.txt",
+              "RelativeToolTip": "report.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-28T18:36:28.249Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "WoodBEarlyPassProgram.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\programming-1\\WoodBEarlyPassProgram\\WoodBEarlyPassProgram.cpp",
               "RelativeToolTip": "WoodBEarlyPassProgram.cpp",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAQwJIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-28T18:00:01.535Z",
               "EditorCaption": ""
